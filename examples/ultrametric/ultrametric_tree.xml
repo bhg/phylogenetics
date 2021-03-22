@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="weight" attr.type="float" />
+  <key id="d0" for="node" attr.name="leaf" attr.type="boolean" />
+  <graph edgedefault="directed">
+    <node id="A">
+      <data key="d0">True</data>
+    </node>
+    <node id="B">
+      <data key="d0">True</data>
+    </node>
+    <node id="AB">
+      <data key="d0">False</data>
+    </node>
+    <node id="EAB">
+      <data key="d0">False</data>
+    </node>
+    <node id="C">
+      <data key="d0">True</data>
+    </node>
+    <node id="D">
+      <data key="d0">True</data>
+    </node>
+    <node id="CD">
+      <data key="d0">False</data>
+    </node>
+    <node id="EABCD">
+      <data key="d0">False</data>
+    </node>
+    <node id="E&#10;">
+      <data key="d0">True</data>
+    </node>
+    <edge source="AB" target="A">
+      <data key="d1">8.5</data>
+    </edge>
+    <edge source="AB" target="B">
+      <data key="d1">8.5</data>
+    </edge>
+    <edge source="EAB" target="AB">
+      <data key="d1">2.5</data>
+    </edge>
+    <edge source="EAB" target="E&#10;">
+      <data key="d1">11.0</data>
+    </edge>
+    <edge source="CD" target="C">
+      <data key="d1">14.0</data>
+    </edge>
+    <edge source="CD" target="D">
+      <data key="d1">14.0</data>
+    </edge>
+    <edge source="EABCD" target="EAB">
+      <data key="d1">5.5</data>
+    </edge>
+    <edge source="EABCD" target="CD">
+      <data key="d1">2.5</data>
+    </edge>
+  </graph>
+</graphml>
